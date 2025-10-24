@@ -130,7 +130,7 @@ https://github.com/adi0900/RegLex-AI
 ### Environment Variables in Use:
 ```bash
 # Backend
-GEMINI_API_KEY=AIzaSyBp-oTm2GCsV7Jtwy658xE1gydqa_r51s4
+GEMINI_API_KEY=your_api_key
 ELASTICSEARCH_URL=https://sebi-compliance-agent-d15205.es.asia-south1.gcp.elastic.cloud:443
 GCP_PROJECT_ID=reglex-ai
 ENVIRONMENT=production
