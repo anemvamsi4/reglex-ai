@@ -1,0 +1,40 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+# AI and LLM dependencies
+google-generativeai
+openai
+anthropic
+
+# Document processing
+PyMuPDF
+requests
+
+# Data processing
+numpy
+pandas
+
+# Google Cloud
+google-cloud-storage
+google-auth
+google-cloud-aiplatform
+vertexai
+
+# Vector search
+elasticsearch
+faiss-cpu
+
+# Utilities
+transformers
+huggingface-hub[hf_xet]
+torch
+sympy
+tokenizers
+
+# Additional dependencies for Vercel
+mangum
+asgiref
+mistralai

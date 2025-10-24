@@ -1,0 +1,24 @@
+# App Engine configuration (alternative to Cloud Run)
+# Use this if you prefer App Engine over Cloud Run
+
+runtime: python311
+entrypoint: uvicorn src.pipeline.run_pipeline:app --host 0.0.0.0 --port $PORT
+
+instance_class: F4
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+  min_idle_instances: automatic
+  max_idle_instances: automatic
+  min_pending_latency: 30ms
+  max_pending_latency: automatic
+
+env_variables:
+  ENVIRONMENT: "production"
+  GCP_PROJECT_ID: "reglex-ai"
+
+# Secrets are managed via Secret Manager
+# Configure them in GCP Console
+

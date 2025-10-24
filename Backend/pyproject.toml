@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sebi-compliance-backend"
+version = "1.0.0"
+description = "SEBI Compliance Backend API"
+authors = [
+    {name = "RegLex AI Team"}
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "python-dotenv",
+    "google-generativeai",
+    "openai",
+    "anthropic",
+    "pymupdf",
+    "requests",
+    "numpy",
+    "pandas",
+    "google-cloud-storage==2.14.0",
+    "transformers",
+    "huggingface-hub",
+    "elasticsearch>=9.1.1",
+    "sympy>=1.14.0",
+    "google-auth>=2.41.1",
+    "torch>=2.8.0",
+    "tokenizers>=0.22.1",
+    "mangum>=0.19.0",
+    "asgiref>=3.10.0",
+    "mistralai>=1.9.11",
+    "hf-xet>=1.1.10",
+    "faiss-cpu>=1.12.0",
+    "google-cloud-aiplatform>=1.122.0",
+]
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "."
+
+[tool.setuptools.package-data]
+"src" = ["**/*.py", "**/*.json", "**/*.txt"]
