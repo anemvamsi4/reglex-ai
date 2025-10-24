@@ -1099,11 +1099,10 @@ curl -X POST https://reglex-backend-127310351608.us-central1.run.app/upload-pdf/
 
 **RegLex AI Team**
 
-- **Aditya** - Full Stack Developer & Team Lead
+- **Aditya** - UI/UX Resercher & Team Lead (Frontend)
 - **Nilam** - AI/ML Engineer & Backend Architect
-- **Suriya** - AI/ML Developer & Risk Assessment
-- **Ivan Nilesh** - ML Algorithm Development
-- **Vrithika** - Presentation
+- **Vamsi Anem** - AI/ML Developer & Backend Dev 
+
 
 **Contact:** adi1423tya@gmail.com
 
