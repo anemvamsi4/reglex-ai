@@ -25,7 +25,7 @@ https://reglex-frontend-127310351608.us-central1.run.app
 
 ### **GitHub Repository** ✅
 ```
-https://github.com/adi0900/RegLex-AI
+https://github.com/anemvamsi4/reglex-ai
 ```
 
 ---
@@ -1125,10 +1125,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 **Support & Links**
 
-- **GitHub:** https://github.com/adi0900/RegLex-AI
+- **GitHub:** https://github.com/anemvamsi4/reglex-ai
 - **Backend:** https://reglex-backend-127310351608.us-central1.run.app
 - **API Docs:** https://reglex-backend-127310351608.us-central1.run.app/docs
-- **Issues:** https://github.com/adi0900/RegLex-AI/issues
+- **Issues:** https://github.com/anemvamsi4/reglex-ai/issues
 
 ---
 
@@ -1137,10 +1137,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Add YouTube link here after recording]
 
 **What to show:**
-1. Live backend API (30s)
-2. Code walkthrough (60s)
-3. Architecture explanation (60s)
-4. Impact and innovation (30s)
+1. Code walkthrough (2:37s)
+2. Architecture explanation (3:05s)
 
 ---
 
@@ -1154,8 +1152,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [x] BigQuery dataset created
 - [x] Vertex AI integrated
 - [x] Analytics UI with Kibana + Fivetran dashboards
-- [ ] Demo video recorded
-- [ ] Hackathon submitted
+- [x] Demo video recorded
+- [x] Hackathon submitted
 
 ---
 
