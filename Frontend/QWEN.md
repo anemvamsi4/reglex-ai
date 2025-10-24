@@ -88,8 +88,7 @@ GCS_BUCKET_NAME=your_gcp_bucket_name
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/gcp-credentials.json
 
 # AI Integration - Gemini API
-GEMINI_API_KEY=AIzaSyAYtSrjgOLzEqQ_1cpuynDj9Qq9HtMBMfQ
-GEMINI_API_KEY_2=AIzaSyAQNDuTkz68R4gLiI5jJYX0G8km2SFKUvM
+GEMINI_API_KEY=your_api_key
 ```
 
 ## Server Status (Current)
